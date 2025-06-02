@@ -1,0 +1,8 @@
+all:
+  hosts:
+    ilo_server:
+      ansible_host: 10.1.0.53  
+      baseuri: 10.1.0.53
+      username: administrator
+      password: CG2QFYK2
+      iso_url: http://10.19.7.8:8000/AzureLocal23H2-Automated-Installation.iso
